@@ -1,16 +1,39 @@
-# React + Vite
+# Token Track App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cryptocurrency tracking web app that shows real-time prices and market data, with interactive charts to compare coin performance over time.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://token-track-app.vercel.app]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
+<img width="500" alt="Home page" src="https://github.com/user-attachments/assets/c3af66f9-5ec2-4b74-9c40-5a1acc8e9c5b" />
+<img width="500" alt="Home page" src="https://github.com/user-attachments/assets/b6184f90-97e3-4626-a2b5-699d81e0c025" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- Real-time cryptocurrency prices and market data using the CoinGecko API
+- Interactive price-trend charts built with Chart.js
+- User authentication with Firebase
+- Global state management using the Context API
+- Responsive UI built with Material UI
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+React, Vite, Material UI, Chart.js, CoinGecko API, Firebase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Run Locally
+1. Clone the repo
+   git clone https://github.com/Pavnii7890/token-track-app.git
+2. Install dependencies
+   cd token-track-app
+   npm install
+3. Create a .env file in the root folder and add your Firebase config
+   VITE_FIREBASE_API_KEY=your_key_here
+4. Start the development server
+   npm run dev
+
+## 🔮 Future Improvements
+- Add a watchlist for favorite coins
+- Add price alerts
+- Add dark mode
+
+## 📫 Contact
+[https://www.linkedin.com/in/pavni-gupta-82b1b1326?utm_source=share_via&utm_content=profile&utm_medium=member_ios] | [pavnigupta0321@gmail.com]
